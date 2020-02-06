@@ -9,4 +9,5 @@ export class AppComponent {
   title = "Angular Pipes";
   name = "Jane Doe";
   phNumber = "3333333333";
+  number = 222.2222222;
 }
