@@ -22,16 +22,26 @@
       <div class="formwidth fluid-container">
         <div class="formwidth fluid-container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-3">
               Number:
             </div>
-            <div class="number col-md-4">
+            <div class="number col-md-3">
               {{ number | number :'1.2-2'}}
             </div>
+            <div class="formwidth fluid-container">
+              <div class="formwidth fluid-container">
+                <div class="row">
+                  <div class="col-md-3">
+                    Square Root:
+                  </div>
+                  <div class="number col-md-3">
+                    {{ 729 | sqrt }}
+                  </div>
 
-
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
